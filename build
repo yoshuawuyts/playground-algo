@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ $# -lt 1 ]; then
+  echo "Usage: ${0} <file.cpp>"
+  exit 1
+fi
+
+g++ -std=c++11 -O2 -Wall "$1" -o bin
