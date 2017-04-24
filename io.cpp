@@ -1,6 +1,6 @@
+#include <iostream>
 #include <cstdlib>
 #include <string>
-#include <iostream>
 
 int main () {
   int a;
